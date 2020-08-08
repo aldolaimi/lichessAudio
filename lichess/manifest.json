@@ -1,0 +1,27 @@
+{
+    "name": "Lichess Time Audio Extension",
+
+    "version": "1.0",
+
+
+    "description": "Audible Timer Alarm",
+    
+    
+    "permissions" : ["storage"],
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+   
+      "content_scripts": [
+        {
+            "matches": ["https://lichess.org/*"],
+            "run_at" : "document_idle",
+            "js" : ["content.js"]
+        }
+    ],
+
+    "manifest_version": 2
+ }
+
