@@ -1,7 +1,7 @@
 # lichessAudio
 Lichess low time audio alert (chrome extension)
 
-intructions:
+instructions:
 
 1- Download the folder to your PC/Laptop.
 
