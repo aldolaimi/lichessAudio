@@ -2,6 +2,7 @@
 Lichess low time audio alert (chrome extension)
 
 intructions:
+
 1- Download the folder to your PC/Laptop.
 
 2- Open a Chrome page, go to options, select "Extensions"
